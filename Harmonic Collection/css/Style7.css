@@ -1,0 +1,371 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("/fonts/Avenir.ttc");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Paperland";
+    src: url("/fonts/Paperland.ttf");
+    font-weight: normal;
+}
+
+body{
+    margin: 0px;
+    background-image: url(../img/Entry_7_Noodle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    width: 100%;
+    position: relative;
+}
+
+img.clumsyscale {
+    position: absolute;
+    width: 35%;
+    height: auto;
+    z-index: 9;
+    right: 4%;
+    top: 250px;
+}
+
+img.starburst {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    top: -10%;
+    left: -5%;
+    z-index: 9;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.main {
+    padding: 2%;
+}
+
+.main2{
+    background-color: #fffeee;
+    position: relative;
+    top: 20px;
+    left: 5%;
+    height: 400px;
+    width: 90%;
+    transform: skewY(-2deg)
+}
+
+
+.main3{
+    background-color: #ee2032;
+    display: inline-block;
+    position: relative;
+    margin-top: 6%;
+    top: 7%;
+    left: 5%;
+    height: 500px;
+    width: 50%;
+    transform: skewY(-2deg)
+}
+
+#step1image {
+    position: absolute;
+    height: auto;
+    width: 450px;
+    left: 10px;
+    top: -100px;
+    z-index: 3;
+    animation-name: scale;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform-origin: lefts;
+}
+
+@keyframes scale {
+    0% {scale: 100%}
+    50% {scale:110%}
+    0% {scale: 100%}
+}
+
+.main4{
+    background-color: #fffeee;
+    display: inline-block;
+    position: relative;
+    margin-top: 6%;
+    top: 7%;
+    left: 8%;
+    height: 500px;
+    width: 37%;
+    transform: skewY(-2deg)
+}
+
+#step2image {
+    position: absolute;
+    height: auto;
+    width: 400px;
+    right: -50px;
+    top: -20px;
+    z-index: 3;
+    animation-name: scale;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+
+.main5{
+    background-color: #fffeee;
+    display: inline-block;
+    position: relative;
+    margin-top: 3%;
+    top: 3%;
+    left: 5%;
+    height: 500px;
+    width: 27%;
+    transform: skewY(-2deg)
+}
+
+#step3image {
+    position: absolute;
+    height: auto;
+    width: 350px;
+    left: 0px;
+    top: -80px;
+    z-index: 3;
+    animation-name: scale;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+.main6{
+    background-color: #ee2032;
+    display: inline-block;
+    position: relative;
+    margin-top: 3%;
+    top: 3%;
+    left: 8%;
+    height: 500px;
+    width: 60%;
+    transform: skewY(-2deg)
+}
+
+#step4image {
+    position: absolute;
+    height: auto;
+    width: 450px;
+    right: 10px;
+    top: -30px;
+    z-index: 3;
+    animation-name: scale;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.main7{
+    position: relative;
+    top: 10%;
+    height: 200px;
+    width: 100%;
+}
+
+
+h1{
+    font-family: "Paperland";
+    font-size: 300px;
+    font-weight: normal;
+    letter-spacing: -30px;
+    line-height: 90%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: #fffeee;
+    transform: skew(-8deg) skewY(-2deg);
+    position: relative;
+    top: 60px;
+    transform-origin: bottom;
+}
+
+h2{
+    position: absolute;
+    top: 6%;
+    left: 5%;
+    margin-right: 40%;
+    font-family: "Avenir";
+    font-weight: bolder;
+    font-size: 4vw;
+    line-height: 110%;
+    letter-spacing: -1px;
+    text-align: left;
+}
+
+h3{
+    font-family: "Paperland";
+    font-weight: normal;
+    font-size: 6vw;
+    line-height: 110%;
+    position: absolute;
+    right: 5%;
+    text-align: right;
+    color: #fffeee;
+    bottom: -80px;
+}
+
+#reverse {
+    color: #ee2032;
+    left: 5%;
+    text-align: left;
+}
+
+p{
+    font-family: "Avenir";
+    font-size: 1.5vw;
+    font-weight: lighter;
+    color: black;
+    line-height: 110%;
+    text-align: right;
+
+}
+
+#reversep {
+    color: black;
+    text-align: left;
+}
+
+
+.PREV{
+    float: left;
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    transform: rotate(2deg);
+}
+
+.NEXT{
+    float: right;
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    transform: rotate(-1deg);
+}
+
+a{
+    color: #ee2032;
+    font-size: 40px;
+    background-color: antiquewhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
+}
+
+a:hover{
+    color: black;
+    font-size: 50px;
+}
+
+.BACKTOTOP{
+
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    margin: 0px;
+    margin-top: 100px;
+    padding: 2%;
+    height: 100px;
+    text-align: center;
+    background-color: transparent;
+    
+}
+
+.footer{
+    background-color: black;
+    height: 30px;
+}
+
+@media (max-width: 1100px) and (min-width: 800px) {
+    .main2 {
+        height: 190px;
+    }
+    h1 {
+        font-size: 220px;
+        letter-spacing: -20px;
+        top: 50px;
+    }
+    h2{
+        font-size: 3vw;
+    }
+    h3 {
+        bottom: -50px;
+    }
+    .main3 {
+        height: 200px;
+    }
+    .main4 {
+        height: 200px;
+    }
+    .main5 {
+        height: 300px;
+    }
+    .main6 {
+        height: 300px;
+    }
+    #step1image {
+        width: 250px;
+    }
+    #step2image {
+        width: 200px;
+    }
+    #step3image {
+        width: 200px;
+    }
+    #step4image {
+        width: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .main2 {
+        height: 150px;
+    }
+    h1 {
+        font-size: 130px;
+        letter-spacing: -10px;
+        top: 39px;
+    }
+    h2{
+        font-size: 3vw;
+    }
+    h3 {
+        bottom: -30px;
+    }
+    .main3 {
+        height: 180px;
+    }
+    .main4 {
+        height: 180px;
+    }
+    .main5 {
+        height: 250px;
+    }
+    .main6 {
+        height: 250px;
+    }
+    #step1image {
+        width: 190px;
+        top: -80px;
+    }
+    #step2image {
+        width: 150px;
+    }
+    #step3image {
+        width: 150px;
+        top: -30px;
+    }
+    #step4image {
+        width: 250px;
+    }
+}
+
+ 

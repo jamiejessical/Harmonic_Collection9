@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("/fonts/Avenir.ttc");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Paperland";
+    src: url("/fonts/Paperland.ttf");
+    font-weight: normal;
+}
+
+body{
+    margin: 0px;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.chick {
+    background-image: url(../img/Entry_2_Chick.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffc4;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 2%;
+    height: 500px;
+}
+
+.chick2 {
+    background-color: #ffff59;
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    padding: 80px;
+    height: 800px;
+}
+
+#responsive {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: block;
+    background-color: #ffff59;
+}
+
+#responsive:hover {
+    display: none;
+}
+
+#responsive2 {
+    display: block;
+}
+
+.chick3 {
+    background-color: #d59ff7;
+    text-align: center;
+    margin: 0px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2{
+    font-family: "Avenir";
+    font-weight: 00px;
+    font-size: 80px;
+    letter-spacing: -3px;
+    line-height: 80px;
+
+}
+
+h3{
+    font-family: "Paperland";
+    font-size: 60px;
+    font-weight: normal;
+    line-height: 10px;
+    color: #ffff59;
+}
+
+h6{
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+}
+
+p{
+    font-family: "Avenir";
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.PREV{
+    float: left;
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    transform: rotate(2deg);
+}
+
+.NEXT{
+    float: right;
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    transform: rotate(-1deg);
+}
+
+a{
+    color: #db0000;
+    font-size: 40px;
+    background-color: antiquewhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
+}
+
+a:hover{
+    color: black;
+    font-size: 50px;
+}
+
+.BACKTOTOP{
+
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    margin: 0px;
+    padding: 2%;
+    height: 100px;
+    text-align: center;
+    background-color: #d59ff7;
+    
+}
+
+.footer{
+    background-color: black;
+    height: 30px;
+}

@@ -1,0 +1,371 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("/fonts/Avenir.ttc");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Paperland";
+    src: url("/fonts/Paperland.ttf");
+    font-weight: normal;
+}
+
+body{
+    margin: 0px;
+    background-image: url(../img/Entry_8_Potato.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    width: 100%;
+    position: relative;
+}
+
+#animation1 {
+    position: absolute;
+    z-index: 9;
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation1 {
+    0%   {left:5%; top:-10%;}
+    100%   {left:5%; top:100%;}
+}
+
+#animation2 {
+    position: absolute;
+    left: 30%;
+    top: -10%;
+    z-index: 9;
+    animation-name: animation2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes animation2 {
+    0%   {left:30%; top:-10%;}
+    100%   {left:30%; top:100%;}
+}
+
+#animation3 {
+    position: absolute;
+    z-index: 9;
+    left: 70%;
+    animation-name: animation3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation3 {
+    0%   {left:60%; top:0%;}
+    100%   {left:60%; top:100%;}
+}
+
+#animation4 {
+    position: absolute;
+    z-index: 9;
+    animation-name: animation4;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    rotate: -90deg;
+}
+
+@keyframes animation4 {
+    0%   {left:50%; top: -15%;}
+    100%   {left:50%; top:100%;}
+}
+
+#animation5 {
+    position: absolute;
+    z-index: 9;
+    animation-name: animation5;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    rotate: -50deg;
+}
+
+@keyframes animation5 {
+    0%   {left:70%; top: -20%;}
+    100%   {left:70%; top:100%;}
+}
+
+#animation6 {
+    position: absolute;
+    z-index: 9;
+    left: 50%;
+    top: -20%;
+    animation-name: animation6;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    rotate: 145deg;
+}
+
+@keyframes animation6 {
+    0%   {left:25%; top: -20%;}
+    100%   {left:25%; top:100%;}
+}
+
+img.clumsyscale {
+    position: absolute;
+    width: 35%;
+    height: auto;
+    z-index: 6;
+    right: 3%;
+    top: 350px;
+}
+
+img.starburst {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    bottom: -200px;
+    left: -5%;
+    z-index: 6;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+#fries1{
+    width: 80%;
+    height: auto;
+}
+
+#fries2{
+    width: 80%;
+    height: auto;
+}
+
+#fries3{
+    width: 80%;
+    height: auto;
+}
+.main {
+    padding: 2%;
+}
+
+.main2{
+    position: relative;
+    display: flex;
+    height: 1400px;
+    width: 90%;
+    background-color: #ff00ff;
+    transform: translate(5%);
+    border-radius: 100px; 
+}
+
+.main2fries {
+    position: absolute;
+    display: flex;
+    top: 30%;
+    transform: translate(5%);
+    margin: 2%;
+}
+
+.main3 {
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+h1{
+    font-family: "Paperland";
+    font-size: 350px;
+    font-weight: normal;
+    letter-spacing: -30px;
+    line-height: 90%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: #ff00ff;
+    position: relative;
+    top: 60px;
+    transform-origin: bottom;
+}
+
+h2{
+    position: absolute;
+    top: 6%;
+    left: 8%;
+    margin-right: 35%;
+    font-family: "Avenir";
+    font-weight: bolder;
+    font-size: 4vw;
+    line-height: 110%;
+    letter-spacing: -1px;
+    text-align: left;
+    color: white;
+}
+
+h3{
+    font-family: "Paperland";
+    font-weight: normal;
+    font-size: 3vw;
+    line-height: 110%;
+    text-align: center;
+    color: #ffff00;
+    max-width: 90%;
+    margin-top: 2px;
+    transform: translate(-10%);
+}
+
+h4{
+    font-family: "Paperland";
+    font-weight: normal;
+    font-size: 5vw;
+    line-height: 110%;
+    text-align: center;
+    color: white;
+
+}
+
+p{
+    font-family: "Avenir";
+    font-size: 25px;
+    font-weight: lighter;
+    max-width: 80%;
+    color: white;
+    line-height: 110%;
+    text-align: center;
+    transform: translate(10%);
+}
+
+
+.PREV{
+    float: left;
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    transform: rotate(2deg);
+}
+
+.NEXT{
+    float: right;
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    transform: rotate(-1deg);
+}
+
+a{
+    color: #ee2032;
+    font-size: 40px;
+    background-color: antiquewhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
+}
+
+a:hover{
+    color: black;
+    font-size: 50px;
+}
+
+.BACKTOTOP{
+
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    margin: 0px;
+    margin-top: 100px;
+    padding: 2%;
+    height: 100px;
+    text-align: center;
+    background-color: transparent;
+    
+}
+
+.footer{
+    background-color: black;
+    height: 30px;
+}
+
+@media (max-width: 1100px) and (min-width: 800px){
+    h1{
+        font-size: 230px;
+        letter-spacing: -15px;
+        top: 60px;
+    }
+    .main2{
+        height: 1000px;
+    }
+    img.clumsyscale {
+        right: 3%;
+        top: 250px;
+        width: 35%;
+    }
+    img.starburst {
+        bottom: -150px;
+        width: 50%;
+    }
+}
+@media (max-width: 800px) {
+    .main2{
+        height: 1700px;
+        width: 90%;
+        background-color: #ff00ff;
+        transform: translate(5%);
+        border-radius: 60px; 
+        top: 40px;
+    }
+    .main3 {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 30%;
+    }
+    .main2fries {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 10%;
+        transform: translate(15%);
+        margin: 2%;
+    }
+    h1{
+        font-size: 150px;
+        letter-spacing: -15px;
+        top: 80px;
+    }
+    p{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+        top: 2%;
+    }   
+    h3{
+        font-size: 40px;
+    } 
+    h4{
+        font-size: 40px;
+    }      
+    img.clumsyscale {
+        right: 3%;
+        top: 250px;
+        width: 30%;
+    }
+    img.starburst {
+        bottom: -100px;
+        width: 60%;
+    }
+    #fries1{
+        width: 50%;
+        height: auto;
+        transform: translate(25%);
+    }
+    
+    #fries2{
+        width: 50%;
+        height: auto;
+        transform: translate(25%);
+    }
+    
+    #fries3{
+        width: 50%;
+        height: auto;
+        transform: translate(25%);
+    }
+}

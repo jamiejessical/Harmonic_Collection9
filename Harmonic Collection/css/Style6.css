@@ -1,0 +1,255 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("/fonts/Avenir.ttc");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Paperland";
+    src: url("/fonts/Paperland.ttf");
+    font-weight: normal;
+}
+
+body{
+    margin: 0px;
+    background-image: url(../img/Entry_6_Quinoa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2050px;
+    width: 100%;
+    position: relative;
+}
+
+.clumsyscale {
+    position: absolute;
+    top: 50%;
+    left: -15%;
+    z-index: 9;
+}
+
+.starburst {
+    position: absolute;
+    top: -10%;
+    left: 60%;
+    z-index: 9;
+    max-width: 30%; height: auto;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.main {
+    padding: 2%;
+}
+
+.main2 {
+    position: relative;
+    top: 5%;
+    width: 95%;
+    height: 1450px;
+    max-height: 1450px;
+    transform: translate(2.5%);
+    background-color: #b0e18e;
+}
+
+#pot {
+    max-width: 100%; height: auto;
+}
+
+.animation {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-10%,-50%);
+
+}
+
+#grain1 {
+    position: absolute;
+    max-width: 50%; height: auto;
+    z-index: 2;
+    left: 30%;
+    top: 45%;
+    transform: translate(-50%,-55%);
+}
+
+#quinoa1 {
+    opacity: 0;
+    position: absolute;
+    max-width: 70%; height: auto;
+    z-index: 3;
+    padding: -80%;
+    left: 48%;
+    top: 50%;
+    transform: translate(-50%,-55%) rotate(50deg);
+    transition: 0s 180s;
+}
+
+#quinoa1:hover {
+    opacity: 1;
+    transition: 0s;
+}
+
+#grain2 {
+    position: absolute;
+    max-width: 50%; height: auto;
+    z-index: 2;
+    left: 58%;
+    top: 30%;
+    transform: translate(-50%,-55%);
+}
+
+#quinoa2 {
+    position: absolute;
+    opacity: 0;
+    max-width: 50%; height: auto;
+    z-index: 4;
+    padding: -80%;
+    left: 65%;
+    top: 57%;
+    transform: translate(-50%,-55%);
+    transition: 0s 180s;
+}
+
+#quinoa2:hover {
+    opacity: 1;
+    transition: 0s;
+}
+
+
+#grain3 {
+    position: absolute;
+    max-width: 50%; height: auto;
+    z-index: 2;
+    left: 58%;
+    top: 65%;
+    transform: translate(-50%,-55%) rotate(50deg);
+}
+
+#quinoa3 {
+    position: absolute;
+    opacity: 0;
+    max-width: 50%; height: auto;
+    z-index: 5;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-55%);
+    transition: 0s 180s;
+}
+
+#quinoa3:hover {
+    opacity: 1;
+    transition: 0s;
+}
+
+.quicktip {
+    position: relative;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+    z-index: 7;
+}
+
+.main3 {
+    margin-top: -100px;
+}
+
+h1{
+    font-family: "Paperland";
+    font-size: 25vw;
+    font-weight: normal;
+    letter-spacing: -10px;
+    line-height: 90%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: #b0e18e;
+    transform: skew(-8deg);
+}
+
+h2{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    font-family: "Avenir";
+    font-weight: bolder;
+    font-size: 45px;
+    line-height: 110%;
+    letter-spacing: -1px;
+    text-align: left;
+    text-wrap: nowrap;
+}
+
+h3{
+    font-family: "Paperland";
+    font-weight: normal;
+    font-size: 75px;
+    line-height: 110%;
+    position: absolute;
+   bottom: 1%;
+    right: 5%;
+    color: red;
+    text-align: right;
+}
+
+p{
+    font-family: "Avenir";
+    font-size: 30px;
+    font-weight: lighter;
+    color: black;
+    line-height: 110%;
+    text-align: right;
+    margin-left: 40%;
+    margin-bottom: 0%;
+
+}
+
+.PREV{
+    float: left;
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    transform: rotate(2deg);
+}
+
+.NEXT{
+    float: right;
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    transform: rotate(-1deg);
+}
+
+a{
+    color: #db0000;
+    font-size: 40px;
+    background-color: antiquewhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
+}
+
+a:hover{
+    color: black;
+    font-size: 50px;
+}
+
+.BACKTOTOP{
+
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    margin: 0px;
+    padding: 2%;
+    height: 100px;
+    text-align: center;
+    background-color: transparent;
+    
+}
+
+.footer{
+    background-color: black;
+    height: 30px;
+}

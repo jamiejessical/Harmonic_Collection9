@@ -1,0 +1,225 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("/fonts/Avenir.ttc");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Paperland";
+    src: url("/fonts/Paperland.ttf");
+    font-weight: normal;
+}
+
+body{
+    margin: 0px;
+}
+
+img.clumsyscale {
+    position: absolute;
+    width: 33%;
+    height: auto;
+    z-index: 6;
+}
+
+img.starburst {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    z-index: 6;
+    rotate: 25deg;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.background {
+    background-image: url(../img/Entry_10_Bacon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main1 {
+    padding: 2%;
+}
+
+.main2 {
+    background-color: #a600ff;
+    position: relative;
+    display: block;
+    width: 90%;
+    height: 1300px;
+    padding: 2%;
+    left: 3%;
+}
+
+.timeline1 {
+    height: 140px;
+    width: 400px;
+    background-color: #ff5924;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+}
+
+.timeline2 {
+    height: 140px;
+    width: 400px;
+    background-color: #ff5924;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+}
+
+.timeline3 {
+    height: 140px;
+    width: 400px;
+    background-color: #ff5924;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+}
+
+.timeline4 {
+    height: 140px;
+    width: 400px;
+    background-color: #ff5924;
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+}
+
+.timeline5 {
+    height: 140px;
+    width: 400px;
+    background-color: #ff5924;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+}
+
+.timeline6 {
+    height: 140px;
+    width: 400px;
+    background-color: #ff5924;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+}
+
+h1{
+    font-family: "Paperland";
+    font-size: 26vw;
+    font-weight: normal;
+    line-height: 10px;
+    letter-spacing: -20px;
+    color: #a600ff;
+    text-align: center;
+    transform: skew(-15deg);
+    margin-top: 250px;
+    margin-bottom: 90px;
+}
+
+h2{
+    font-family: "Avenir";
+    font-weight: bolder;
+    font-size: 3vw;
+    line-height: 110%;
+    letter-spacing: -1px;
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h3{
+    font-family: "Paperland";
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 110%;
+    text-align: center;
+    color: #fff500;
+    margin-top: 2%;
+    background-color: #ff5924;
+    padding: 30px;
+    border-radius: 20px;
+  
+}
+
+h4{
+    font-family: "Paperland";
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 110%;
+    text-align: center;
+    color: #fff500;
+}
+
+p{
+    font-family: "Avenir";
+    font-size: 35px;
+    font-weight: lighter;
+    color: white;
+    line-height: 110%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.PREV{
+    float: left;
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    transform: rotate(2deg);
+}
+
+.NEXT{
+    float: right;
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    transform: rotate(-1deg);
+}
+
+a{
+    color: #db0000;
+    font-size: 40px;
+    background-color: antiquewhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
+}
+
+a:hover{
+    color: black;
+    font-size: 50px;
+}
+
+.BACKTOTOP{
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    margin: 0px;
+    text-align: center;   
+    margin-bottom: 40px; 
+}
+
+.footer{
+    background-color: black;
+    height: 30px;
+}

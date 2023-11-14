@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("/fonts/Avenir.ttc");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Paperland";
+    src: url("/fonts/Paperland.ttf");
+    font-weight: normal;
+}
+
+body{
+    margin: 0px;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.egg{
+    background-image: url(../img/Entry_1_Egg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffc4;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 2%;
+    height: 600px;
+}
+
+.egg2{
+    background-color: #ffffc4;
+    margin: 0px;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.egg2h{
+    z-index: 9;
+    white-space: nowrap;
+}
+
+.animation{
+    align-self: center;
+    margin-top: -150px;
+}
+
+.egg2p{
+    text-align: right;
+    margin-top: -150px;
+    white-space: nowrap;
+}
+
+.steps{
+    background-color: #ffffc4;
+    margin-bottom: -80px;
+    padding-left: 200px;
+    padding-bottom: 0px;
+}
+
+.egg3{
+    background-color: #ff5e00;
+    height:100%;
+}
+
+.container{
+    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-width:1200px;
+    max-width:1200px;  
+    row-gap: -600px;
+    column-gap: 100px;
+}
+
+.stepelements {
+    flex: 0 0 500px;
+}
+
+p{
+    font-family: "Avenir";
+    font-size: 35px;
+    font-weight: lighter;
+    margin: 0%;
+}
+
+h2{
+    font-family: "Avenir";
+    font-weight: bold;
+    font-size: 80px;
+    letter-spacing: -3px;
+    line-height: 80px;
+    color: #db0000;
+    margin: 0px;
+
+}
+
+h3{
+    font-family: "Paperland";
+    font-size: 80px;
+    font-weight: normal;
+    line-height: 100%;
+    margin: 0px;
+}
+
+h4{
+    font-family: "Paperland";
+    font-size: 200px;
+    margin: 0px;
+    color: #ff5e00;
+}
+
+.PREV{
+    float: left;
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    transform: rotate(2deg);
+}
+
+.NEXT{
+    float: right;
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    transform: rotate(-1deg);
+}
+
+a{
+    color: #db0000;
+    font-size: 40px;
+    background-color: antiquewhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
+}
+
+a:hover{
+    color: black;
+    font-size: 50px;
+}
+
+.BACKTOTOP{
+
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    margin: 0px;
+    padding: 2%;
+    height: 100px;
+    text-align: center;
+    background-color: #ff5e00;
+    
+}
+
+.footer{
+    background-color: black;
+    height: 30px;
+}

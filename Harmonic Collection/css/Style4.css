@@ -1,0 +1,260 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("/fonts/Avenir.ttc");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Paperland";
+    src: url("/fonts/Paperland.ttf");
+    font-weight: normal;
+}
+
+body{
+    margin: 0px;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.clumsyscale {
+    position: absolute;
+    float: right;
+    top: 700px;
+    left: 1000px;
+    z-index: 9;
+}
+
+.shroooom {
+    position: absolute;
+    float: right;
+    top: 1900px;
+    left: 120px;
+    z-index: 9;
+}
+
+h1 {
+    font-family: "Paperland";
+    font-size: 285px;
+    font-weight: normal;
+    color: #68441b;
+    transform-origin: bottom;
+    white-space: nowrap;
+}
+
+span{
+    display: inline-block;
+    margin: -40px;
+    top: -100px;
+    position: relative;
+}
+
+.r {
+    transform: rotate(5deg);
+}
+
+.o {
+    transform: rotate(15deg);
+    top: -60px;
+}
+
+.o2 {
+    transform: rotate(30deg);
+    top: 20px;
+    left: -20px;
+}
+
+.m {
+    transform: rotate(50deg);
+    top: 160px;
+    left: -80px;
+}
+
+
+.shroom{
+    background-image: url(../img/Entry_4_Shroom.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffc4;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 2%;
+    height: 2500px;
+}
+
+.headline {
+    position: relative;
+    margin-left: 50px;
+}
+
+.circle1 {
+    background-color: #68441b;
+    position: relative;
+    margin-top: -400px;
+    margin-left: -60px;
+    padding: 35px;
+    height: 800px;
+    width: 900px;
+    border-top-right-radius: 200%;
+    border-bottom-right-radius: 200%;
+}
+
+.circle2 {
+    background-color: #5b2d1b;
+    float: right;
+    position: relative;
+    margin-right: -35px;
+    margin-top: -210px;
+    padding: 30px;
+    height: 1200px;
+    width: 1200px;
+    border-top-left-radius: 200%;
+    border-bottom-left-radius: 200%;
+}
+
+.h2container {
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-top: 13%;
+    padding-right: 80px;
+
+}
+
+.h3container {
+    position: absolute;
+    right: 20px;
+    margin-top: 8%;
+    padding-right: 80px;
+}
+
+.images{
+    position: absolute;
+    top: 220px;
+    padding: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 2px;
+}
+
+#element {
+    position: relative;
+    top: 70px;
+}
+
+#element:hover {
+    position: relative;
+    top: 70px;
+    width: 30%;
+    height: 30%;
+}
+
+#element2 {
+    position: relative;
+}
+
+#element2:hover {
+    position: relative;
+    width: 30%;
+    height: 30%;
+}
+
+p{
+    font-family: "Avenir";
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 120%;
+    color: white;
+}
+
+h2{
+    font-family: "Avenir";
+    font-weight: bolder;
+    font-size: 70px;
+    line-height: 110%;
+    margin: 0%;
+    color: #f49400;
+}
+
+h3{
+    font-family: "Paperland";
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 110%;
+    margin: -4%;
+    color: wheat;
+    text-align: right;
+}
+
+h4 {
+    font-family: "Paperland";
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 110%;
+    color: #f49400;
+    text-align: left;
+}
+
+h5 {
+    position: relative;
+    font-family: "Paperland";
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 110%;
+    color: #f49400;
+    text-align: left;
+    top: 150px;
+}
+
+.PREV{
+    float: left;
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    transform: rotate(2deg);
+}
+
+.NEXT{
+    float: right;
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    transform: rotate(-1deg);
+}
+
+a{
+    color: #db0000;
+    font-size: 40px;
+    background-color: antiquewhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
+}
+
+a:hover {
+    color: black;
+    font-size: 50px;
+}
+
+.BACKTOTOP{
+    position: absolute ;
+    top: 2400px;    
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    padding: 2%;
+    height: 100px;
+    width: 50%;
+    margin-left: 20%;
+    text-align: center;
+    background-color: transparent;
+    
+}
+
+.footer{
+    background-color: black;
+    height: 30px;
+}

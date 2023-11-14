@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("/fonts/Avenir.ttc");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Paperland";
+    src: url("/fonts/Paperland.ttf");
+    font-weight: normal;
+}
+
+
+img.basket {
+    width:100%;
+    height:auto;
+}
+
+img.egg {
+    width:20%;
+    height:auto;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+img.egg:hover {
+    scale: 130%;
+    top: 20%;
+    right: 8%;
+}
+
+img.chick {
+    width:26%;
+    height:auto;
+    position: absolute;
+    top: 35%;
+    right: 14%;
+    transform: rotate(-20deg);
+}
+
+img.chick:hover {
+    scale: 130%;
+    z-index: 3
+}
+
+img.spinach {
+    width:22%;
+    height:auto;
+    position: absolute;
+    top: 18%;
+    right: 28%;
+}
+
+img.spinach:hover {
+    scale: 130%;
+    top: 18%;
+    right: 28%;
+    z-index: 3
+}
+
+img.shroom {
+    width:17%;
+    height:auto;
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+}
+
+img.shroom:hover {
+    scale: 130%;
+    z-index: 3
+
+}
+
+img.fish {
+    width:23%;
+    height:auto;
+    position: absolute;
+    top: 13%;
+    left: 11%;
+    rotate: 10deg;
+}
+
+img.fish:hover {
+    scale: 130%;
+    left: 9%;
+    z-index: 3
+}
+
+img.quinoa {
+    width:19%;
+    height:auto;
+    position: absolute;
+    top: 60%;
+    right: 5%;
+}
+
+img.quinoa:hover {
+    scale: 130%;
+    z-index: 3
+}
+
+
+img.noodle {
+    width:22%;
+    height:auto;
+    position: absolute;
+    bottom: 55%;
+    rotate: -130deg;
+    left: 33%;
+}
+
+img.noodle:hover {
+    scale: 130%;
+    left: 33%;
+    z-index: 3
+}
+
+img.potato {
+    width: 20%;
+    height:auto;
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    rotate: -90deg;
+}
+
+img.potato:hover {
+    scale: 130%;
+    bottom: 13%;
+    left: 8%;
+    z-index: 3
+}
+
+img.prawns {
+    width:30%;
+    height:auto;
+    position: absolute;
+    bottom: 18%;
+    left: 37%;
+    rotate: 5deg;
+}
+
+img.prawns:hover {
+    scale: 130%;
+    bottom: 16%;
+    left: 39%;
+    z-index: 3
+}
+
+body{
+    margin: 0px;
+}
+
+.container {
+    height: 100vh;
+    background-color: black;
+}
+
+.content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.headline {
+    position: absolute;
+    margin: 0px;
+    top: 50%;
+    transform: translate(0%,-50%);
+    left: 13%;
+    z-index: 2;
+    scale: 90%;
+}
+
+h1 {
+    font-family: "Paperland";
+    font-size: 7vw;
+    font-weight: normal;
+    letter-spacing: -2px;
+    line-height: 80%;
+    color: beige;
+    margin: 0px;
+    margin-top: -10px;
+    text-wrap: nowrap;
+}
+
+h2 {
+    font-family: "Avenir";
+    font-size: 2vw;
+    color: white;
+    margin-top: 4%;
+    margin-left: 18%;
+    padding: 4px;
+    background-color: #db0000;
+    height: fit-content;
+    width: fit-content;
+    transform: rotate(-3deg);
+    text-wrap: nowrap;
+}
+
+h3 {
+    font-family: "Avenir";
+    font-size: 2.5vw;
+    color: beige;
+    margin-bottom: 1%;
+}
